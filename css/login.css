@@ -34,6 +34,7 @@ fieldset {
 /* Read how to center elements with margin here: http://learnlayout.com/margin-auto.html*/
 .width-80 {
     width:80%;
+    margin: 0 auto;
 }
 
 /* This element must use 100% of the width */
@@ -50,7 +51,6 @@ fieldset {
 /* This element should use 100% of the width */
 .btn-block {
     width:100%;
-    color:white;
 }
 
 /* There must be a separation of 8px between the text and the border of this element */
@@ -58,7 +58,7 @@ fieldset {
 /* The border of this element should be 1px, and its color should be light grey */
 .btn {
     padding:8px;
-    border:1px;
+    border:1px solid lightgrey;
     background-color: #0fb784;
     font-weight: bold;
     color: white;
@@ -72,7 +72,7 @@ fieldset {
 /* HINT: Calculate based on the padding of the `.btn` class */
 /* HINT: Examples are available at: https://glitch.com/~input-button-width */
 .form-control {
-    padding-top:4px 0;
+    padding:4px 0;
     width: calc(100% - 4px);
     margin:.5em 0;
 }
