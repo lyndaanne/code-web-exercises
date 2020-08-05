@@ -1,0 +1,24 @@
+* {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron .jumbotron-fluid {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.img-fluid shadow {
+    margin: 0;
+    padding: 0;
+}
+
+.display-4 {
+    align-content: center;
+}
+
+.card-body {
+    background-color: blue;
+    color: white;
+}

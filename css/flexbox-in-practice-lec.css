@@ -1,0 +1,174 @@
+/*This is the lecture for the footer.*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Nunito Sans", SansSerif;
+    min-height: 100vh; /* to keep footer at the bottom of the page */
+
+}
+
+footer {
+    background: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    min-width: 768px;
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+footer h1 {
+    margin: 0;
+    font-weight: bolder;
+}
+
+h5 {
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .icon-wrapper:hover,
+footer .top-footer a:hover {
+    color: black;
+    background: white;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .container {
+    padding: 4em 0;
+    height: 30em;
+}
+
+.icon-wrapper {
+    border: 2px solid grey;
+    border-radius: 2.4em;
+    height: 2.4em;
+    width: 2.4em;
+}
+
+footer .top-footer a {
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+footer .bottom-footer a {
+    margin: .3em;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: grey;
+}
+
+
+/*This is the CSS for the card lecture for flexbox in practice.*/
+
+/*body {*/
+/*    margin: 0;*/
+/*    font-family: Roboto;*/
+/*    background: orange;*/
+/*}*/
+/*h1, h2, h3 {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    text-align: center;*/
+/*}*/
+/*h3 {*/
+/*    color: grey;*/
+/*}*/
+/*hr {*/
+/*    border-top: 1px solid whitesmoke;*/
+/*    width: 90px;*/
+/*}*/
+/*.card {*/
+/*    margin: .5em;*/
+/*    border-radius: 2px;*/
+/*    background: white;*/
+/*    width: 250px;*/
+/*    height: 350px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.text-section {*/
+/*    position: relative;*/
+/*    bottom: 1.5em;*/
+/*}*/
+
+/*.icons {*/
+/*    min-width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.icons i {*/
+/*    font-size: 2.2em;*/
+/*}*/
+
+/*img {*/
+/*    border-radius: 120px;*/
+/*    height: 120px;*/
+/*    width: 120px;*/
+/*}*/
+
+/*i {*/
+/*    color: grey;*/
+/*}*/
+
+
+/*
+*/
+/*This is the CSS for flexbox lecture on margins*/
+/*.container {*/
+/*    border: 1px solid goldenrod;*/
+/*    display: flex;*/
+/*}*/
+
+/*.box {*/
+/*    background-color: green;*/
+/*    border: 1 px solid black;*/
+/*    padding: .5em;*/
+/*    color: white;*/
+/*    margin: auto;*/
+/*}*/
+
+/*.box1 {*/
+/*    margin-left: auto;*/
+/*}*/
+
+/*.box2 {*/
+/*    margin-left: auto;*/
+/*}*/
+
+/*.box3 {*/
+/*    margin-right: auto;*/
+/*}*/

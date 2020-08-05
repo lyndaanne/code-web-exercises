@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-item a {
+    color: blue;
+    display: inline-block;
+}
+
+.logo-div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background: darkgray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    list-style: none;
+}
