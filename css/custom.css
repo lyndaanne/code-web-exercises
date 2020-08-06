@@ -4,9 +4,12 @@
     margin: 0;
 }
 
-.jumbotron .jumbotron-fluid {
-    margin-top: 0;
-    margin-bottom: 0;
+.jumbotron-fluid {
+    background-image: url("../img/pizza.png");
+}
+
+.opacity-70 {
+    opacity: 70%;
 }
 
 .img-fluid shadow {
