@@ -1,7 +1,7 @@
 "use strict";
 
 // console.log(sentence);
-var suprise = "Boo!";
+var suprise = ("Boo!");
 alert(suprise);
 
 var confirmed = confirm("Are you understanding today's lesson?");
