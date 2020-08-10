@@ -21,7 +21,11 @@
     align-content: center;
 }
 
-.card-body {
+.card-header {
     background-color: blue;
     color: white;
+}
+
+button {
+    align-content: end;
 }
