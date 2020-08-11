@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functions</title>
+</head>
+<body>
+<h1>JS Functions</h1>
+<script>
+
+    function happyBirthday(name) {
+        console.log("Happy Birthday to You");
+        console.log("Happy Birthday to You");
+        console.log("Happy Birthday dear" + name);
+        console.log("Happy Birthday to You!");
+    }
+    happyBirthday("Ryan");
+    happyBirthday("Chris");
+
+    var favoriteColor = "orange"
+    console.log("My favorite color is " + favoriteColor);
+
+    favoriteColor = function(color) {
+        var question = "What is your favorite color?";
+        var response = prompt(question);
+        alert("Great, " + response + " is pretty!" + color + " is my favorite color!");
+    }
+
+    function favVacation() {
+        var question = "Where is your favorite vacation spot?";
+        var response = prompt(question);
+        alert("Awesome! My favorite vacation spot is the Bahamas!")
+    }
+
+    favVacation();
+
+    // Different way to write a function with no parameters
+    var favColor = function() {
+
+    }
+
+    // individual practice
+    var favoriteBasketballTeam = "Spurs";
+    console.log("My favorite team is the " + favoriteBasketballTeam);
+
+    favoriteBasketballTeam = function(team) {
+        var question1 = "What is your favorite team?";
+        var response = prompt(question1);
+        alert("That's interesting, my favorite team is the " + team);
+        return response;
+    }
+
+    var x = 300;
+
+</script>
+</body>
+</html>
