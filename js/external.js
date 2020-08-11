@@ -23,7 +23,11 @@ var googleRate = 400;
 var amazonRate = 380;
 var facebookRate = 350;
 
-var totalPay = ((googleRate * 6) + (amazonRate * 4) + (facebookRate * 10));
+var googleHours = prompt('How many hours did you work at Google?')
+var amazonHours = prompt('How many hours did you work at Amazon?')
+var facebookHours = prompt('How many hours did you work at Facebook?')
+
+var totalPay = ((googleRate * googleHours) + (amazonRate * amazonHours) + (facebookRate * facebookHours));
 alert('Your total paycheck will be $' + totalPay + '.');
 
 var classNotFull = true;
