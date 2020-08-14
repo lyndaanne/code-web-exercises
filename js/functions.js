@@ -1,21 +1,17 @@
 "use strict";
 
-var message = ("Hi, my name is Lynda.");
-
 /**
+ * to do:
  * Create a function called 'sayHello' that takes a parameter 'name'.
  * When called, the function should return a message that says hello to the passed in name.
  *
  * Example
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
-function sayHello () {
-    var question = "What is your name?";
-    var response = prompt(question);
-    return("Hello " + response);
+function sayHello(name) {
+    var response = "Hello " + name + ".";
+    return response;
 }
-sayHello();
-
 
 /**
  * TODO:
@@ -25,10 +21,9 @@ sayHello();
  * console.log 'helloMessage' to check your work
  * ??
  */
-sayHello("Lynda"); {
-    var helloMessage = (sayHello);
-    console.log(helloMessage);
-}
+var helloMessage = sayHello( "Lynda");
+console.log(helloMessage);
+
 
 
 /**
@@ -37,8 +32,8 @@ sayHello("Lynda"); {
  * variable to the 'sayHello' function. You should see the same output in the
  * console.
  */
-var myName = ("Lynda");
-sayHello(myName);
+// var myName = ("Lynda");
+// sayHello(myName);
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
@@ -61,7 +56,11 @@ var random = Math.floor((Math.random() * 3) + 1);
  * different result everytime you refresh the page if you are using the random
  * number)
  */
-
+var isTwo = function(num) {
+    var answer = num === 2;
+    return answer;
+}
+console.log(isTwo(random));
 /**
  * TODO:
  * Create a function named 'calculateTip' to calculate a tip on a bill at a
@@ -73,14 +72,15 @@ var random = Math.floor((Math.random() * 3) + 1);
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
-
+function calculateTip
 /**
  * TODO:
  * Use prompt and alert in combination with your calculateTip function to
  * prompt the user for the bill total and a percentage they would like to tip,
  * then display the dollar amount they should tip
  */
-
+var message = "What is your total bill?";
+prompt
 /**
  * TODO:
  * Create a function named `applyDiscount`. This function should accept a price
@@ -95,3 +95,6 @@ var random = Math.floor((Math.random() * 3) + 1);
  *
  * > applyDiscount(45.99, 0.12) // 40.4712
  */
+function applyDiscount () = (price, discount) {
+    return price - (price * discount);
+}
